@@ -1,0 +1,207 @@
+<div class="panel panel-primary panel-heading">
+  <h5 class="panel-title">
+      <a routerLink="view">View</a> | <a routerLink="edit" >Edit</a> | <a routerLink="login" >Login</a> | <a routerLink="logout" >Logout</a>
+  </h5>
+
+</div>
+
+<!--
+<nav class="navbar navbar-default">
+  <ul class="nav navbar-nav">
+    <li>
+        <a routerLink="view">View</a>
+    </li>
+    <li>
+        <a routerLink="edit">Edit</a>
+    </li>
+    <li>
+        <a routerLink="login">Login</a>
+    </li>
+  </ul>
+</nav>
+-->
+<<<<<<< working copy
+
+<div id="Web_1920___1" class="">
+	<svg class="Rectangle_21">
+		<rect fill="rgba(205,239,222,1)" id="Rectangle_21" rx="17" ry="17" x="0" y="0" width="260" height="49">
+		</rect>
+	</svg>
+	<svg class="Path_1" viewBox="0 0 1921 1080">
+		<path fill="rgba(240,242,242,0.51)" id="Path_1" d="M 0 0 L 1921 0 L 1921 1080 L 0 1080 L 0 0 Z">
+		</path>
+	</svg>
+	<svg class="Rectangle_3">
+		<rect fill="rgba(205,239,222,1)" id="Rectangle_3" rx="0" ry="0" x="0" y="0" width="1920" height="129">
+		</rect>
+	</svg>
+	<div id="Login">
+		<span>Login</span>
+	</div>
+	<div id="buildR">
+		<span>buildR</span>
+	</div>
+	<div id="Create_Edit_Routine">
+		<span>Create/Edit Routine</span>
+	</div>
+	<div id="A_Routine_Builder_For_IUT">
+		<span>A Routine Builder For IUT</span>
+	</div>
+	<div id="View_Routine">
+		<span>View Routine</span>
+	</div>
+	<div id="Logout">
+		<span>Logout</span>
+	</div>
+	<svg class="Rectangle_2">
+		<rect fill="rgba(240,240,240,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="333" height="48">
+		</rect>
+	</svg>
+	<svg class="Line_1" viewBox="0 0 1 47.744">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_1" d="M 0 0 L 0 47.74440765380859">
+		</path>
+	</svg>
+	<svg class="Polygon_1" viewBox="0 0 24 22">
+		<path fill="rgba(146,146,146,1)" id="Polygon_1" d="M 12 0 L 24 22 L 0 22 Z">
+		</path>
+	</svg>
+	<svg class="Rectangle_3_A0_Rectangle_4">
+		<rect fill="rgba(240,240,240,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_3_A0_Rectangle_4" rx="0" ry="0" x="0" y="0" width="333" height="47">
+		</rect>
+	</svg>
+	<svg class="Line_2" viewBox="0 0 1 47.744">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_2" d="M 0 0 L 0 47.74440765380859">
+		</path>
+	</svg>
+	<svg class="Polygon_2" viewBox="0 0 24 22">
+		<path fill="rgba(146,146,146,1)" id="Polygon_2" d="M 12 0 L 24 22 L 0 22 Z">
+		</path>
+	</svg>
+	<svg class="Rectangle_4">
+		<rect fill="rgba(240,240,240,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_4" rx="0" ry="0" x="0" y="0" width="333" height="48">
+		</rect>
+	</svg>
+	<svg class="Line_3" viewBox="0 0 1 47.744">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_3" d="M 0 0 L 0 47.74440765380859">
+		</path>
+	</svg>
+	<svg class="Polygon_3" viewBox="0 0 24 22">
+		<path fill="rgba(146,146,146,1)" id="Polygon_3" d="M 12 0 L 24 22 L 0 22 Z">
+		</path>
+	</svg>
+	<svg class="Rectangle_5">
+		<rect fill="rgba(240,240,240,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_5" rx="0" ry="0" x="0" y="0" width="333" height="48">
+		</rect>
+	</svg>
+	<svg class="Line_4" viewBox="0 0 1 47.744">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_4" d="M 0 0 L 0 47.74440765380859">
+		</path>
+	</svg>
+	<svg class="Polygon_4" viewBox="0 0 24 22">
+		<path fill="rgba(146,146,146,1)" id="Polygon_4" d="M 12 0 L 24 22 L 0 22 Z">
+		</path>
+	</svg>
+	<div id="Department">
+		<span>Department</span>
+	</div>
+	<div id="Room">
+		<span>Room</span>
+	</div>
+	<div id="Teacher">
+		<span>Teacher</span>
+	</div>
+	<div id="Student_Group">
+		<span>Student Group</span>
+	</div>
+	<svg class="Rectangle_6">
+		<rect fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_6" rx="0" ry="0" x="0" y="0" width="1579" height="413">
+		</rect>
+	</svg>
+	<svg class="Line_5" viewBox="0 0 1579.242 2">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_5" d="M 0 0 L 1579.242309570313 2">
+		</path>
+	</svg>
+	<svg class="Line_6" viewBox="0 0 1579.242 2">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_6" d="M 0 0 L 1579.242309570313 2">
+		</path>
+	</svg>
+	<svg class="Line_7" viewBox="0 0 1 413">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_7" d="M 0 0 L 0 413">
+		</path>
+	</svg>
+	<svg class="Line_8" viewBox="0 0 1 413">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_8" d="M 0 0 L 0 413">
+		</path>
+	</svg>
+	<svg class="Line_9" viewBox="0 0 1 413">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_9" d="M 0 0 L 0 413">
+		</path>
+	</svg>
+	<svg class="Line_10" viewBox="0 0 1 413">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_10" d="M 0 0 L 0 413">
+		</path>
+	</svg>
+	<svg class="Line_11" viewBox="0 0 1 413">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_11" d="M 0 0 L 0 413">
+		</path>
+	</svg>
+	<svg class="Line_12" viewBox="0 0 1 413">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_12" d="M 0 0 L 0 413">
+		</path>
+	</svg>
+	<svg class="Line_13" viewBox="0 0 1 413">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_13" d="M 0 0 L 0 413">
+		</path>
+	</svg>
+	<svg class="Line_14" viewBox="0 0 414.5 1.5">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_14" d="M 0 1.5 L 414.499755859375 0">
+		</path>
+	</svg>
+	<svg class="Line_15" viewBox="0 0 414 0.83">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_15" d="M 0 0.8299560546875 L 413.999755859375 0">
+		</path>
+	</svg>
+	<svg class="Line_16" viewBox="0 0 414 0.063">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_16" d="M 0 0 L 413.999755859375 0.0633544921875">
+		</path>
+	</svg>
+	<svg class="Line_17" viewBox="0 0 414 0.086">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_17" d="M 0 0.0859375 L 413.999755859375 0">
+		</path>
+	</svg>
+	<svg class="Line_18" viewBox="0 0 994.242 0.526">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_18" d="M 0 0.52606201171875 L 994.242431640625 0">
+		</path>
+	</svg>
+	<svg class="Line_19" viewBox="0 0 994.242 1.213">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_19" d="M 0 1.212646484375 L 994.242431640625 0">
+		</path>
+	</svg>
+	<svg class="Line_20" viewBox="0 0 994.242 1.104">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_20" d="M 0 1.10430908203125 L 994.242431640625 0">
+		</path>
+	</svg>
+	<svg class="Line_21" viewBox="0 0 994.242 0.966">
+		<path fill="transparent" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Line_21" d="M 0 0.96600341796875 L 994.242431640625 0">
+		</path>
+	</svg>
+	<svg class="Rectangle_21_A0_Rectangle_8">
+		<rect fill="rgba(222,240,231,1)" id="Rectangle_21_A0_Rectangle_8" rx="17" ry="17" x="0" y="0" width="182" height="49">
+		</rect>
+	</svg>
+	<div id="Export">
+		<span>Export</span>
+	</div>
+	<svg class="Rectangle_8">
+		<rect fill="rgba(222,240,231,1)" id="Rectangle_8" rx="17" ry="17" x="0" y="0" width="260" height="49">
+		</rect>
+	</svg>
+	<div id="Publish_Routine">
+		<span>Publish Routine</span>
+	</div>
+	<div id="Save_As_My_Routine">
+		<span>Save As My Routine</span>
+	</div>
+
+=======
+>>>>>>> destination

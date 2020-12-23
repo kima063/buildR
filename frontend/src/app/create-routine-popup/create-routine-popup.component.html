@@ -1,0 +1,58 @@
+<p>create-routine-popup works!</p>
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Create Routine</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+  <div class="modal-body">
+    <form>
+      <div class="drop-year">
+        <label for="year">Year: </label>
+
+          <select>
+            <option value="1st">1st</option>
+            <option value="2nd">2nd</option>
+            <option value="3rd">3rd</option>
+            <option value="4th">4th</option>
+          </select>
+
+      </div>
+
+      <label for="semester">Semester: </label>
+
+      <div class="drop-sem">
+          <select>
+            <option value="summer">Summer</option>
+            <option value="winter">Winter</option>
+          </select>
+      </div>
+
+      <div class="dept">
+          <label for="dept">Department: </label>
+
+          <select>
+            <option value="CSE">CSE</option>
+            <option value="SWE">SWE</option>
+            <option value="EEE">EEE</option>
+            <option value="MCE">MCE</option>
+          </select>
+      </div>
+
+    </form>
+
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Create</button>
+  </div>
+</ng-template>
+
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">+</button>
+
+<hr>
+
+<pre>{{closeResult}}</pre>

@@ -1,0 +1,85 @@
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">New Entry</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form #entryForm="ngForm">
+
+        <div class="drop-sem">
+            <label for="semester">Semester: </label>
+            <select [(ngModel)]="model.sem" name="sem">
+              <option *ngFor="let sem of semester">{{sem}}</option>
+            </select>
+        </div>
+
+
+        <div class="drop-dept">
+            <label for="dept">Department: </label>
+            <select [(ngModel)]="model.dept" name="dept">
+              <option *ngFor="let dept of department">{{dept}}</option>
+            </select>
+        </div>
+
+
+        <div class="drop-sec">
+            <label for="section">Section: </label>
+            <select [(ngModel)]="model.sec" name="sec">
+              <option value="A">Sec-A</option>
+              <option value="B">Sec-B</option>
+            </select>
+        </div>
+
+
+
+      <div class="drop-course">
+        <label for="course">Course: </label>
+          <select [(ngModel)]="model.course" name="course">
+            <option *ngFor="let crs of courses" value="crs.courseId">{{crs.courseId}}</option>
+          </select>
+
+      </div>
+
+
+      <div class="drop-teacher">
+          <label for="teacher">Teacher(s): </label>
+          <select [(ngModel)]="model.teacher" name="teacher">
+            <option *ngFor="let ts of teachers" value="ts.name">{{ts.name}}</option>
+          </select>
+      </div>
+
+
+      <div class="drop-room">
+          <label for="room">Room: </label>
+        <select [(ngModel)]="model.room" name="room">
+          <option *ngFor="let rm of rooms" value="rm.roomNo">{{rm.roomNo}}</option>
+        </select>
+      </div>
+
+
+      <div class="drop-duration">
+          <label for="duration">Duration: </label>
+          <select [(ngModel)]="model.duration" name="duration">
+            <option value="50">50 minutes</option>
+            <option value="75">1 hour 15 minutes</option>
+            <option value="150">2 hours 30 minutes</option>
+          </select>
+      </div>
+
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close()" (click)="addperiod()">Add</button>
+  </div>
+</ng-template>
+
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">+</button>
+
+<hr>
+
+<pre>{{closeResult}}</pre>
+
+
+

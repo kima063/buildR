@@ -1,0 +1,42 @@
+<<<<<<< working copy
+﻿insert into Period values(default,2,'CSE 4401',50,'Monday','8:00',10002,'Mr. Ahmed',107,'A',02,'CSE');
+insert into Period values(default,2,'CSE 4403',50,'Monday','9:15',10003,'Mr. Bond',107,'A',02,'CSE');
+insert into Period values(default,5,'Algorithm',150,'Tuesday','10:30',10005,'Ms. Chloe',107,'A',02,'CSE');
+insert into Period values(default,4,'EEE 4404',75,'Wednesday','9:15',10004,'Ms. Diana',109,'B',02,'EEE');
+insert into Period values(default,7,150,'Thursday','11:45',10007,109,'B',02,'EEE');
+insert into Period values(default,10,75,'Friday','2:30',100010,109,'B',02,'EEE');
+insert into Period values(default,3,50,'Monday','8:00',10003,108,'A',04,'CSE');
+insert into Period values(default,6,150,'Tuesday','10:30',10006,108,'A',04,'CSE');
+insert into Period values(default,8,75,'Wednesday','9:15',10008,110,'B',04,'CSE');
+insert into Period values(default,9,150,'Thursday','11:45',10009,110,'B',04,'CSE');
+insert into Period values(default,11,75,'Friday','2:30',10003,108,'B',04,'CSE');
+insert into Period values(default,2,50,'Monday','8:00',10002,91,'A',03,'CEE');
+insert into Period values(default,5,150,'Tuesday','10:30',10001,91,'A',03,'CEE');
+insert into Period values(default,4,75,'Wednesday','9:15',100010,90,'B',03,'CEE');
+insert into Period values(default,7,150,'Thursday','11:45',10004,90,'B',03,'CEE');
+insert into Period values(default,10,75,'Friday','2:30',10005,90,'B',03,'CEE');
+insert into Period values(default,3,50,'Monday','8:00',10003,111,'A',01,'CSE');
+insert into Period values(default,6,150,'Tuesday','10:30',10002,111,'A',01,'CSE');
+insert into Period values(default,8,75,'Wednesday','9:15',10004,112,'B',01,'CSE');
+insert into Period values(default,9,150,'Thursday','11:45',10001,112,'B',01,'CSE');
+insert into Period values(default,11,75,'Friday','2:30',10006,112,'B',01,'CSE');=======
+﻿insert into Period values(default,2,50,'Monday','8:00',10002,107,'A',2,'CSE');
+insert into Period values(default,5,150,'Tuesday','10:30',10005,107,'A',2,'CSE');
+insert into Period values(default,4,75,'Wednesday','9:15',10004,109,'B',2,'EEE');
+insert into Period values(default,7,150,'Thursday','11:45',10007,109,'B',2,'EEE');
+insert into Period values(default,10,75,'Friday','2:30',100010,109,'B',2,'EEE');
+insert into Period values(default,3,50,'Monday','8:00',10003,108,'A',4,'CSE');
+insert into Period values(default,6,150,'Tuesday','10:30',10006,108,'A',4,'CSE');
+insert into Period values(default,8,75,'Wednesday','9:15',10008,110,'B',4,'CSE');
+insert into Period values(default,9,150,'Thursday','11:45',10009,110,'B',4,'CSE');
+insert into Period values(default,11,75,'Friday','2:30',10003,108,'B',4,'CSE');
+insert into Period values(default,2,50,'Monday','8:00',10002,91,'A',3,'CEE');
+insert into Period values(default,5,150,'Tuesday','10:30',10001,91,'A',3,'CEE');
+insert into Period values(default,4,75,'Wednesday','9:15',100010,90,'B',3,'CEE');
+insert into Period values(default,7,150,'Thursday','11:45',10004,90,'B',3,'CEE');
+insert into Period values(default,10,75,'Friday','2:30',10005,90,'B',3,'CEE');
+insert into Period values(default,3,50,'Monday','8:00',10003,111,'A',1,'CSE');
+insert into Period values(default,6,150,'Tuesday','10:30',10002,111,'A',1,'CSE');
+insert into Period values(default,8,75,'Wednesday','9:15',10004,112,'B',1,'CSE');
+insert into Period values(default,9,150,'Thursday','11:45',10001,112,'B',1,'CSE');
+insert into Period values(default,11,75,'Friday','2:30',10006,112,'B',1,'CSE');>>>>>>> destination

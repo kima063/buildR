@@ -1,0 +1,30 @@
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\bin\Debug\netcoreapp2.2\BuildR.deps.json
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\bin\Debug\netcoreapp2.2\BuildR.runtimeconfig.json
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\bin\Debug\netcoreapp2.2\BuildR.runtimeconfig.dev.json
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\bin\Debug\netcoreapp2.2\BuildR.dll
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.csprojAssemblyReference.cache
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.csproj.CoreCompileInputs.cache
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.RazorAssemblyInfo.cache
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.RazorAssemblyInfo.cs
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.AssemblyInfoInputs.cache
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.AssemblyInfo.cs
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.RazorTargetAssemblyInfo.cache
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\bin\Debug\netcoreapp2.2\BuildR.pdb
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.dll
+F:\Study\Academic\2-2\SPL\buildR\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.pdb
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\bin\Debug\netcoreapp2.2\BuildR.deps.json
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\bin\Debug\netcoreapp2.2\BuildR.runtimeconfig.json
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\bin\Debug\netcoreapp2.2\BuildR.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\bin\Debug\netcoreapp2.2\BuildR.dll
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\bin\Debug\netcoreapp2.2\BuildR.pdb
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.dll
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\obj\Debug\netcoreapp2.2\BuildR.pdb
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\ASUS\Desktop\Routine Gen\repo\backend\BuildR\bin\Debug\netcoreapp2.2\Properties\launchSettings.json

@@ -1,0 +1,28 @@
+
+<article>
+    <h5><span>Select Department </span></h5>
+    <select (change)="selectdept($event)">
+        <option *ngFor="let dept of department">{{dept}}</option>
+    </select>
+    <!-- <p><span>You Selected:</span><b>{{selecteddept}}</b></p> -->
+</article>
+
+
+
+<article>
+<h5> <span>Select Room </span></h5>
+        <select (change)="selectroom($event)">
+            <option *ngFor="let room of rooms" value="room.roomNo">{{room.roomNo}}</option>
+        </select>
+ <!-- <p><span>You Selected:</span><b>{{selectedroom}}</b></p> -->
+    </article>
+
+
+
+<article>
+<h5> <span>Select Teacher Name </span></h5>
+    <select (change)="selectname($event)">
+      <option *ngFor="let fm of facultyMembers" value="fm.employeeId">{{fm.name}}</option>
+    </select>
+<!-- <p><span>You selected:</span><b>{{selectedteacher}}</b></p> -->
+</article>

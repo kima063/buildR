@@ -1,0 +1,32 @@
+import { Course } from './course';
+
+export class Period {
+<<<<<<< working copy
+  periodId: number;
+  section: string;
+  semester: number;
+  department: string;
+  dayOfWeek: string;
+  startTime: string;
+  c_id: number;
+  course_Id: string;
+  teachersId: number;
+  t_name: string[];
+  durationMinute: number;
+  roomId: number;
+=======
+  PeriodId: number;
+  Section: string;
+  Semester: number;
+  Department: string;
+  DayOfWeek: string;
+  StartTime: string;
+  CourseId: number;
+  courseId: string;
+  TeachersId: number;
+  name: string;
+  DurationMinute: number;
+  RoomId: number;
+>>>>>>> destination
+  span: number;
+}

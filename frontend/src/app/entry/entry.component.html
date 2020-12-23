@@ -1,0 +1,51 @@
+<p>Course
+    <select>
+        <option value="v1">cse 4421</option>
+            <option value="v2">swe 4422</option>
+            <option value="v2">hum 4424</option>
+            <option value="v2">math 4425</option>
+            <option value="v2">cse 4423</option>
+        </select>
+    </p>
+
+ <p>Teachers
+    <select>
+        <option value="v1">All</option>
+                <option value="v2">Kushol</option>
+                <option value="v2">Saquib</option>
+                <option value="v2">Sadaf</option>
+                <option value="v2">Ahnaf</option>
+                </select>
+        </p>
+
+
+        <form [formGroup]="reactiveForm">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="materialUnchecked2" [value]="false"
+                     formControlName="reactiveRadio" name="reactiveRadio">
+              <label class="form-check-label" for="materialUnchecked2">Reactive unchecked</label>
+            </div>
+          
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="materialChecked2" [value]="true"
+                     formControlName="reactiveRadio" name="reactiveRadio">
+              <label class="form-check-label" for="materialChecked2">Reactive checked</label>
+            </div>
+          </form>
+
+        <p>Student Group
+            <select>
+                <option value="v1">CSE section 1</option>
+                    <option value="v2">CSE section 2</option>
+                    <option value="v2">SWE section 1</option>
+                    <option value="v2">SWE section 2</option>
+                    <option value="v1">MCE section 1</option>
+                    <option value="v2">MCE section 2</option>
+                    <option value="v2">CEE section 1</option>
+                    <option value="v2">CEE section 2</option>
+                    <option value="v1">EEE section 1</option>
+                    <option value="v2">EEE section 2</option>
+                    <option value="v2">EEE section 3</option>
+                    <option value="v2">BTM section 1</option>
+                </select>
+        </p>

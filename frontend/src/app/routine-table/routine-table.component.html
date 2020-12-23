@@ -1,0 +1,42 @@
+<div class="bg">
+  <img  />
+</div>
+
+<table *ngIf="allPeriods">
+    <thead>
+        <tr>
+            <th></th>
+          <th *ngFor="let time of dayTimes" scope="col">{{time}}</th>
+        </tr>
+     </thead>
+     <tbody *ngFor="let dayOfWeek of weekDays;">
+      <tr>
+              <th scope="row" rowspan="2">{{dayOfWeek}}</th>
+
+              <td *ngFor="let time of dayTimes" scope="col">
+                  <br-routine-cell
+                      [allPeriods]="allPeriods"
+                      [dayOfWeek]="dayOfWeek"
+                      [timeOfDay]="time"
+                      [isDoubleCell]="false"
+                      [isEditable]="isEditable"
+                  >
+                  </br-routine-cell>
+              </td>
+      </tr>
+      <tr>
+          <td *ngFor="let time of largedayTimes;" colspan="2" scope="col">
+              <br-routine-cell
+              [allPeriods]="allPeriods"
+              [isDoubleCell]="true"
+              [dayOfWeek]="dayOfWeek"
+              [timeOfDay]="time"
+              [isEditable]="isEditable"
+          >
+          </br-routine-cell>
+          </td>
+      </tr>
+    </tbody>
+</table>
+<br>
+<br>

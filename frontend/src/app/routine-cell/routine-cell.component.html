@@ -1,0 +1,20 @@
+<!--
+    Show all periods of this cell
+-->
+
+<div class="period" *ngFor="let period of periods" [style.width]="period.span+'%'">
+  {{period.course_Id}}<br>
+  ({{period.t_name}})<br>
+  [{{period.section}}-
+  {{period.roomId}}]
+  <div *ngIf="isEditable">
+      <button (click)="editOnClick($event)" type=”button” name="edit">e</button>
+      <button (click)="delOnClick(period)" type=”button” name="delete">x</button>
+  </div>
+</div>
+
+<div *ngIf="isEditable" >
+  <br-entry-popup  [allPeriods]="allPeriods" [dayOfWeek]="dayOfWeek" [timeOfDay]="timeOfDay" (onSuccess)="entryInPeriods()"></br-entry-popup>
+</div>
+
+
